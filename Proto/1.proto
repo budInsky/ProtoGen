@@ -1,0 +1,9 @@
+package Protocal;
+enum EProtocal{
+	eCS_CheckAccount = 1;
+}
+message Account
+{
+    required string account= 1;
+    required string password = 2;
+}
